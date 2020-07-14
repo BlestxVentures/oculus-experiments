@@ -1,0 +1,174 @@
+ManifestFileVersion: 0
+CRC: 1305780236
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1d03be576e7e64a25dd9bb2ebd647746
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 599cdb4c907951e13b700e8f26097723
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 109
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ad074644ff568a14187a3690cfbd7534, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 84a92b25f83d49b9bc132d206b370281, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2705215ac5b84b70bacc50632be6e391, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ab2114bdc8544297b417dfefe9f1e410, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 77dcb060bbaa45249a17670da6f03559, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d4ab88a2ec53e384691eda88aae23c2d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4d16237595931a84d9b860442cb133a3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8057c976b872b494aba079f605e2e5b4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8983186779bd8504d902146b5c687c6a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1d0c33ceed92d8840960421cea79debd, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_diffuse_roughness_2048.png
+- Assets/External/Waypoint Indicators/Resources/Demo Only/UI/btn arrow left.prefab
+- Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_diffuse_roughness_256.png
+- Assets/External/Waypoint Indicators/Resources/Demo Only/UI/Intructions Window.prefab
+- Assets/External/Waypoint Indicators/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader
+- Assets/External/Waypoint Indicators/TextMesh Pro/Resources/LineBreaking Leading
+  Characters.txt
+- Assets/External/Waypoint Indicators/Resources/Night/1 Line Pointer.prefab
+- Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_PC_SingleComponent.shader
+- Assets/Oculus/VR/Resources/OVRMRUnlitTransparent.shader
+- Assets/External/Waypoint Indicators/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+- Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_normal_2048.png
+- Assets/External/Waypoint Indicators/Resources/Demo Only/UI/Spawn Counter.prefab
+- Assets/Oculus/VR/Resources/OVRMRChromaKey.cginc
+- Assets/External/Waypoint Indicators/TextMesh Pro/Resources/Style Sheets/Default
+  Style Sheet.asset
+- Assets/External/Waypoint Indicators/Resources/Night/4 Station.prefab
+- Assets/External/Waypoint Indicators/Resources/Day/2 Standard.prefab
+- Assets/External/Waypoint Indicators/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc
+- Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_Mobile_Loader.shader
+- Assets/External/Waypoint Indicators/Resources/Demo Only/Player.prefab
+- Assets/External/Waypoint Indicators/Resources/Demo Only/Env/rock.prefab
+- Assets/External/Waypoint Indicators/Resources/Demo Only/UI/wp select.prefab
+- Assets/External/Waypoint Indicators/Resources/Demo Only/UI/btn arrow right.prefab
+- Assets/External/Waypoint Indicators/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Custom-Atlas.shader
+- Assets/Oculus/VR/Resources/Cubemap Blit.shader
+- Assets/Oculus/VR/Resources/OVRMRUnlit.shader
+- Assets/Resources/ONSPSettings.asset
+- Assets/External/Waypoint Indicators/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+  SDF - Drop Shadow.mat
+- Assets/External/Waypoint Indicators/Resources/Night/2 Centered.prefab
+- Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderSelfOccluding.shader
+- Assets/Oculus/VR/Resources/Unlit Transparent Color.shader
+- Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderPBS.shader
+- Assets/External/Waypoint Indicators/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+  SDF.asset
+- Assets/Oculus/VR/Resources/OVRMRCameraFrameLit.shader
+- Assets/External/Waypoint Indicators/TextMesh Pro/Resources/LineBreaking Following
+  Characters.txt
+- Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_Mobile_CombinedMesh.shader
+- Assets/External/Waypoint Indicators/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile
+  Masking.shader
+- Assets/Oculus/Avatar/Resources/Materials/Expressive/Avatar_Mobile_CombinedMeshExpressive.shader
+- Assets/Oculus/VR/Resources/Underlay Transparent Occluder.shader
+- Assets/Oculus/VR/Resources/Texture2D Blit.shader
+- Assets/Oculus/Avatar/Resources/Materials/Expressive/Avatar_PC_SingleComponentExpressive.shader
+- Assets/External/Waypoint Indicators/Resources/Day/1 Centered.prefab
+- Assets/Oculus/Avatar/Resources/Materials/AvatarPBRV2Simple.shader
+- Assets/External/Waypoint Indicators/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader
+- Assets/External/Waypoint Indicators/Resources/Day/4 Interaction.prefab
+- Assets/External/Waypoint Indicators/Resources/Day/5 Text & Dialog.prefab
+- Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_normal_256.png
+- Assets/External/Waypoint Indicators/Resources/Demo Only/UI/wp desc.prefab
+- Assets/External/Waypoint Indicators/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader
+- Assets/Resources/OVRPlatformToolSettings.asset
+- Assets/External/Waypoint Indicators/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc
+- Assets/Oculus/Avatar/Resources/Materials/Expressive/Avatar_Mobile_SingleComponentExpressive.shader
+- Assets/External/Waypoint Indicators/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+  SDF - Fallback.asset
+- Assets/Oculus/VR/Resources/OVRMRCameraFrame.shader
+- Assets/External/Waypoint Indicators/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile
+  Overlay.shader
+- Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderPBSV2.shader
+- Assets/External/Waypoint Indicators/Resources/Demo Only/Env/Ground-Grass.prefab
+- Assets/External/Waypoint Indicators/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader
+- Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_diffuse_roughness_1024.png
+- Assets/External/Waypoint Indicators/TextMesh Pro/Resources/Shaders/TMPro.cginc
+- Assets/Resources/OVRBuildConfig.asset
+- Assets/External/Waypoint Indicators/Resources/Day/3 Destination.prefab
+- Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_Mobile_SingleComponent.shader
+- Assets/External/Waypoint Indicators/TextMesh Pro/Resources/Shaders/TMP_SDF.shader
+- Assets/Oculus/Avatar/Resources/Materials/AvatarMaterialStateShader.cginc
+- Assets/Oculus/Avatar/Resources/Materials/Expressive/AvatarEyeLens.shader
+- Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShader.shader
+- Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_normal_1024.tif
+- Assets/Oculus/VR/Resources/Underlay Impostor.shader
+- Assets/External/Waypoint Indicators/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader
+- Assets/External/Waypoint Indicators/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+  SDF - Outline.mat
+- Assets/External/Waypoint Indicators/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader
+- Assets/External/Waypoint Indicators/Resources/Night/3 Animated Ring.prefab
+- Assets/External/Waypoint Indicators/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader
+- Assets/External/Waypoint Indicators/TextMesh Pro/Resources/TMP Settings.asset
+Dependencies: []

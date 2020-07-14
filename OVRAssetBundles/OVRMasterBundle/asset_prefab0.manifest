@@ -1,0 +1,56 @@
+ManifestFileVersion: 0
+CRC: 567040926
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 48aefa6736ec4accd6faf1040691e4b1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: efeefa8d7ea9122a4539932fc294646c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: df9f338034892c44ebb62d97894772f1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7e933e81d3c20c74ea6fdc708a67e3a5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0950df82e7936c84983497630bde5b54, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5178bc8574ce2bf4388e787a2e2af326, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b71d1996d67004241a3b69960856ffcb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df8e1d778abf442e4bec449c360e9e1c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4f07515ada089df47868559a20dd6783, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 143
+  Script: {instanceID: 0}
+Assets:
+- Assets/External/PolygonPrototype/Prefabs/FX/SM_FX_Glow_Ring_01.prefab
+- Assets/External/PolygonPrototype/Prefabs/Buildings/Simple/SM_Buildings_Floor_5x5_01.prefab
+- Assets/External/PolygonPrototype/Prefabs/Props/SM_Prop_Barrier_01.prefab
+- Assets/External/PolygonPrototype/Prefabs/Props/SM_Prop_Cone_01.prefab
+- Assets/Oculus/VR/Prefabs/OVRPlayerController.prefab
+Dependencies:
+- D:/prj/blestx/Oculus Experiments/OVRAssetBundles/OVRMasterBundle/asset_mat0
+- D:/prj/blestx/Oculus Experiments/OVRAssetBundles/OVRMasterBundle/asset_fbx0

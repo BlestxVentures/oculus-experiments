@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 2505082832
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5c2fdaf4eb31b67e7780a9546d574ecc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 21c99c86a43ad817b2cb7f65458ae090
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_02/Skybox02.mat
+- Assets/External/PolygonPrototype/Materials/FX/PolygonPrototype_FX_GlowRing.mat
+- Assets/External/PolygonPrototype/Materials/PolygonPrototype_Texture_01.mat
+- Assets/External/PolygonPrototype/Materials/PolygonPrototype_Global_Grid_01.mat
+Dependencies:
+- D:/prj/blestx/Oculus Experiments/OVRAssetBundles/OVRMasterBundle/asset_png0
+- D:/prj/blestx/Oculus Experiments/OVRAssetBundles/OVRMasterBundle/asset_shader0
