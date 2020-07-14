@@ -6,9 +6,21 @@
       "scopes": [
         "io.extendreality"
       ]
+    },
+    {
+      "name": "Game Package Registry by Google",
+      "url": "https://unityregistry-pa.googleapis.com",
+      "scopes": [
+        "com.google"
+      ]
     }
   ],
   "dependencies": {
+    "com.google.firebase.analytics": "6.15.2",
+    "com.google.firebase.app": "6.15.2",
+    "com.google.firebase.auth": "6.15.2",
+    "com.google.firebase.remote-config": "6.15.2",
+    "com.google.firebase.storage": "6.15.2",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.collab-proxy": "1.2.16",
     "com.unity.ide.rider": "1.1.4",

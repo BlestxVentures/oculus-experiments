@@ -424,6 +424,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1140178369}
   - component: {fileID: 1140178368}
+  - component: {fileID: 1140178376}
   - component: {fileID: 1140178367}
   - component: {fileID: 1140178366}
   - component: {fileID: 1140178365}
@@ -431,7 +432,6 @@ GameObject:
   - component: {fileID: 1140178371}
   - component: {fileID: 1140178374}
   - component: {fileID: 1140178373}
-  - component: {fileID: 1140178376}
   - component: {fileID: 1140178375}
   - component: {fileID: 1140178372}
   m_Layer: 0
@@ -648,7 +648,7 @@ MonoBehaviour:
     are walking...]"},"$type":"NodeCanvas.Tasks.Actions.DebugLogText"},{"method":{"_baseInfo":"ReplayController|StartRecording|System.Void","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}]},"_name":"Walking","_position":{"x":775.4141,"y":203.226},"$type":"NodeCanvas.StateMachines.ActionState","$id":"4"},{"_actionList":{"executionMode":1,"actions":[{"log":{"_value":"OK,
     turn around and walk back"},"$type":"NodeCanvas.Tasks.Actions.DebugLogText"}]},"_name":"Instruct
     Turn Around","_position":{"x":1015.783,"y":329.1717},"$type":"NodeCanvas.StateMachines.ActionState","$id":"5"},{"_actionList":{"executionMode":1,"actions":[{"log":{"_value":"[walking
-    back...]"},"$type":"NodeCanvas.Tasks.Actions.DebugLogText"}]},"_name":"Walk Back","_position":{"x":1289.333,"y":416.6668},"$type":"NodeCanvas.StateMachines.ActionState","$id":"6"},{"_actionList":{"executionMode":1,"actions":[{"log":{"_value":"Done!"},"$type":"NodeCanvas.Tasks.Actions.DebugLogText"},{"method":{"_baseInfo":"ReplayController|StopRecording|System.Void","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}]},"_name":"Complete","_position":{"x":951.7587,"y":544.0345},"$type":"NodeCanvas.StateMachines.ActionState","$id":"7"},{"_actionList":{"executionMode":1,"actions":[]},"_name":"Out
+    back...]"},"$type":"NodeCanvas.Tasks.Actions.DebugLogText"}]},"_name":"Walk Back","_position":{"x":1289.333,"y":416.6668},"$type":"NodeCanvas.StateMachines.ActionState","$id":"6"},{"_actionList":{"executionMode":1,"actions":[{"method":{"_baseInfo":"ReplayController|StopRecording|System.Void","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"log":{"_value":"Done!"},"$type":"NodeCanvas.Tasks.Actions.DebugLogText"}]},"_name":"Complete","_position":{"x":951.7587,"y":544.0345},"$type":"NodeCanvas.StateMachines.ActionState","$id":"7"},{"_actionList":{"executionMode":1,"actions":[]},"_name":"Out
     of Bounds","_position":{"x":636.0,"y":348.0},"$type":"NodeCanvas.StateMachines.ActionState"},{"_actionList":{"executionMode":1,"actions":[]},"_name":"Abort","_position":{"x":555.0,"y":453.0},"$type":"NodeCanvas.StateMachines.ActionState"}],"connections":[{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_condition":{"checkType":2,"saveGameObjectAs":{"_name":""},"overrideAgent":{"_type":"UnityEngine.Collider","_value":1},"$type":"NodeCanvas.Tasks.Conditions.CheckTrigger"},"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_condition":{"target":{"_value":2},"maxDistance":{"_value":50.0},"awarnessDistance":{},"viewAngle":{"_value":30.2},"$type":"NodeCanvas.Tasks.Conditions.CanSeeTarget"},"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"3"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_condition":{"checkType":1,"saveGameObjectAs":{"_name":""},"overrideAgent":{"_type":"UnityEngine.Collider","_value":1},"$type":"NodeCanvas.Tasks.Conditions.CheckTrigger"},"_sourceNode":{"$ref":"3"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_condition":{"checkType":2,"saveGameObjectAs":{"_name":""},"overrideAgent":{"_type":"UnityEngine.Collider","_value":3},"$type":"NodeCanvas.Tasks.Conditions.CheckTrigger"},"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"5"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_condition":{"checkType":1,"saveGameObjectAs":{"_name":""},"overrideAgent":{"_type":"UnityEngine.Collider","_value":3},"$type":"NodeCanvas.Tasks.Conditions.CheckTrigger"},"_sourceNode":{"$ref":"5"},"_targetNode":{"$ref":"6"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_condition":{"saveGameObjectAs":{"_name":""},"overrideAgent":{"_type":"UnityEngine.Collider","_value":1},"$type":"NodeCanvas.Tasks.Conditions.CheckTrigger"},"_sourceNode":{"$ref":"6"},"_targetNode":{"$ref":"7"},"$type":"NodeCanvas.StateMachines.FSMConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{}}}'
   _boundGraphObjectReferences:
   - {fileID: 0}
@@ -725,12 +725,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1821082480}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c1e9cbc56b16274187ac813f54778c4, type: 3}
+  m_Script: {fileID: 11500000, guid: 8367bb376253fad47ac9ab87762a49fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   replayIdentity:
-    id: -11849
-  recordSeconds: 180
+    id: -1
+  fileDirectory: 
+  fileName: ReplayData.replay
+  overwriteExistingFiles: 0
+  chunkCacheSize: 16
+  logDebugMessages: 0
 --- !u!114 &1821082482
 MonoBehaviour:
   m_ObjectHideFlags: 0
